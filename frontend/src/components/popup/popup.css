@@ -1,0 +1,100 @@
+.popup-container {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.bookForm {
+  width: 40%;
+  background-color: #0a213b;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 25px 35px;
+}
+
+.bookForm * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+
+.bookForm h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+.headCover {
+  display: flex;
+  justify-content: space-between;
+}
+
+.closeButton {
+  padding: 10px 16px;
+  cursor: pointer;
+  border: none;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #4caf50;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bookInputLabel {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bookInput {
+  display: block;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 4px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.submitStudent {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #3484da;
+  color: #e3e2f0;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.viewBookDetails{
+  color: white;
+}
+
+.viewFields{
+  display: flex;
+}
